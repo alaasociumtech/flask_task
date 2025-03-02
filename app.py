@@ -1,6 +1,6 @@
 from flask import Flask
 
-from presentation.views import StudentAPI
+from flask_task.presentation.views import StudentAPI
 
 app = Flask(__name__)
 
